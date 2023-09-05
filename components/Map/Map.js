@@ -9,7 +9,7 @@ function Map() {
 // TileLayer is responsible for loading and displaying the tiles on the map.
 
   return (
-    <MapContainer className='z-0 w-full h-96' center={position} zoom={13} scrollWheelZoom={false}>
+    <MapContainer className='h-[33.66rem] sm:h-[61.5rem] overflow-hidden' center={position} zoom={13} scrollWheelZoom={false}>
       <TileLayer
         attribution='&amp;copy <a href="https://www.openstreetmap.org/">Open Street Map</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
