@@ -11,7 +11,13 @@ module.exports = {
         'rubik-bold': ['Rubik Bold', 'sans-serif'],
         'rubik-medium': ['Rubik Medium', 'sans-serif'],
         'rubik-semibold': ['Rubik SemiBold', 'sans-serif'],
-      }
+      },
+      colors: {
+        custom: {
+          100: '#969696',
+          900: '#2b2b2b',
+        },
+      },
     },
   },
   plugins: [],
