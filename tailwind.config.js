@@ -12,6 +12,10 @@ module.exports = {
         'rubik-medium': ['Rubik Medium', 'sans-serif'],
         'rubik-semibold': ['Rubik SemiBold', 'sans-serif'],
       },
+      backgroundImage: {
+        'pattern-desktop': "url('/pattern-bg-desktop.png')",
+        'pattern-mobile': "url('/pattern-bg-mobile.png')",
+      },
       colors: {
         custom: {
           100: '#969696',
