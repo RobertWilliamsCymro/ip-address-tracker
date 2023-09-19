@@ -16,8 +16,9 @@ export default function MapContainer(props: Props) {
         latitude: latitude,
         zoom: 3.5
     });
+    
     /*
-    In this example, we create a mapRef using the useRef hook and pass it to the Map component using the ref prop. 
+    create a mapRef using the useRef hook and pass it to the Map component using the ref prop. 
     We then use the useEffect hook to set the mapRef to the current property of the ref.
     Finally, we use the mapRef to call the getMap method and then use the flyTo method to move the map to the new location.
     */
