@@ -17,7 +17,7 @@ const SearchForm: React.FC<SearchFormProps> = ({ onSubmit }) => {
   };
 
   return (
-    <form className="mt-2 flex justify-center" onSubmit={handleSubmit}>
+    <form className="flex justify-center max-w-sm lg:max-w-4xl mx-auto p-8" onSubmit={handleSubmit}>
       <label htmlFor="search-ip-address" className="sr-only">
         Search IP Address
       </label>
@@ -25,14 +25,14 @@ const SearchForm: React.FC<SearchFormProps> = ({ onSubmit }) => {
         type="text"
         name="search-ip-address"
         id="search-ip-address"
-        className="w-5/12 p-2 text-lg leading-6 py-6 rounded-l-md"
+        className="py-2 px-4 rounded-l-lg w-full"
         placeholder="Search for any IP address or domain"
         value={ipAddress}
         onChange={handleInputChange}
       />
       <button
         type="submit"
-        className="relative -ml-px inline-flex items-center gap-x-1.5 rounded-r-xl px-5 lg:px-8 py-2 font-semibold bg-black ring-1 ring-inset"
+        className="bg-black py-4 px-4 hover:opacity-80 rounded-r-lg"
         aria-label="Search"
         data-testid="Search"
       >
